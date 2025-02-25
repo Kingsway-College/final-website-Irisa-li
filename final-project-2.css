@@ -1,0 +1,51 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    height: 300px;
+}
+
+
+.text {
+    margin-left: 10px;
+}
+
+.text p {
+    color: rgb(253, 88, 33);
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px 0;
+}
+
+h1 {
+    color: coral; 
+}
+
+body {
+    background-color: rgb(248, 237, 223);
+}
+
+footer {
+    background-color: rgb(241, 216, 168);
+    padding-left: 475px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 3em;
+    color: rgb(241, 122, 11);
+}
+
+header {
+    background-color: darksalmon;
+    font-size: 3em;
+    text-align: center;
+    color: bisque;
+    padding: 15px;
+}
