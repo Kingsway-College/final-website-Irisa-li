@@ -1,0 +1,66 @@
+:root {
+    /* CSS HEX */
+--cerulean: #2d7d90ff;
+--verdigris: #38a3a5ff;
+--keppel: #48b89fff;
+--mint: #5acb9cff;
+--emerald: #6cdd99ff;
+--light-green: #80ed99ff;
+--celadon: #a4f3b3ff;
+--celadon-2: #b6f6c0ff;
+--tea-green: #c7f9ccff;
+}
+
+body {
+    margin: 0px;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 60px;
+    color: var(--cerulean);
+}
+
+a {
+    font-size: 50px;
+    color: var(--keppel);
+    display: grid;
+    place-content: center;
+}
+
+footer {
+    background-color: var(--tea-green);
+    padding: 2px 100px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    background-color: var(--light-green);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+header, h4 {
+    position: fixed;
+    top: 0px;
+    color: var(--tea-green);
+    font-size: 1.5em;
+}
+
+.link-2 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 60px;
+    transform: translateX(-50%);
+    font-size: 1.5em;
+    color: var(--light-green);
+}
