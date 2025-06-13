@@ -1,0 +1,53 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    height: 280px;
+}
+
+
+.text {
+    margin-left: 10px;
+}
+
+.text p {
+    color: rgb(253, 88, 33);
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px 0;
+}
+
+h1 {
+    color: coral; 
+    text-align: center;
+}
+
+body {
+    background-color: rgb(248, 237, 223);
+}
+
+header {
+    background-color: darksalmon;
+    font-size: 3em;
+    text-align: center;
+    padding: 15px;
+}
+
+footer {
+    background-color: rgb(241, 216, 168);
+    text-align: center;
+    font-size: 3em;
+    padding: 15px;
+    color: rgb(241, 122, 11);
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
